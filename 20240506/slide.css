@@ -1,0 +1,46 @@
+.slider {
+    width: 900px;
+    height: 400px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 2px solid #333; /* Optionnel : pour bien voir le cadre du slider */
+}
+
+.slider-content {
+    width: 2700px; /* Ajusté : 3 images x 900px = 2700px */
+    height: 400px;
+    position: relative;
+    display: flex;
+    animation-name: slider;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* Forcer la taille des images pour qu'elles remplissent le slider */
+.slider-content img {
+    width: 900px;
+    height: 400px;
+    object-fit: cover;
+}
+
+@keyframes slider {
+    0% {
+        left: 0px;
+    }
+    20% {
+        left: 0px;
+    }
+    35% {
+        left: -900px;
+    }
+    65% {
+        left: -900px;
+    }
+    80% {
+        left: -1800px;
+    }
+    100% {
+        left: -1800px;
+    }
+}

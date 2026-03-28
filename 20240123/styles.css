@@ -1,0 +1,20 @@
+.centrage {
+    text-align: center;
+}
+
+h3 {
+    color: blue;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside; /* Pour que les puces restent centrées avec le texte */
+    padding: 0;
+}
+
+/* Optionnel : pour que l'image soit aussi centrée si besoin */
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+}

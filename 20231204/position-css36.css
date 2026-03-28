@@ -1,0 +1,24 @@
+body {
+    background-color: #5F4147;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    width: 20%; /* Largeur à 20% pour le test de positionnement */
+    margin: auto;
+    border: 1px solid black; /* Correction : #css était une erreur, remplacé par black */
+    background-color: #F53838;
+    padding: 10px;
+}
+
+h1 {
+    margin: 0px;
+    padding: 5px 10px;
+    color: #80FFFF;
+    background-color: purple;
+    margin-bottom: 10px;
+    
+    /* Propriétés de positionnement */
+    position: relative;
+    right: 50px;
+}
